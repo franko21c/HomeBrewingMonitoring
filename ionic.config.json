@@ -1,0 +1,7 @@
+{
+  "name": "homebrewing-monitoring ",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

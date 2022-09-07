@@ -1,0 +1,28 @@
+<cfe-header [title]="'Scelta cotta'" [showBackBtn]="false"></cfe-header>
+
+<ion-content>
+  <ion-card (click)=" berrLoaderService.show()"  routerLink="/cotta-details">
+    <ion-card-header>
+      <ion-card-subtitle>Cotta 1</ion-card-subtitle>
+      <ion-card-title></ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      
+       Blonde Ale 08/06/2016
+    </ion-card-content>
+  </ion-card>
+  <ion-card (click)=" berrLoaderService.show()" routerLink="/cotta-details">
+    <ion-card-header>
+      <ion-card-subtitle>Cotta 2</ion-card-subtitle>
+      <ion-card-title></ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      
+      Berliner Weisse 25/06/2016
+    </ion-card-content>
+  </ion-card>
+  <img src="../../assets/default.png">
+
+</ion-content>

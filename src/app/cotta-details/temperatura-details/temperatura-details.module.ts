@@ -1,0 +1,22 @@
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+
+import { IonicModule } from '@ionic/angular';
+
+import { TemperaturaDetailsPageRoutingModule } from './temperatura-details-routing.module';
+
+import { TemperaturaDetailsPage } from './temperatura-details.page';
+import { HeaderModule } from 'src/app/header/header.module';
+
+@NgModule({
+  imports: [
+    CommonModule,
+    FormsModule,
+    IonicModule,
+    TemperaturaDetailsPageRoutingModule,
+    HeaderModule
+  ],
+  declarations: [TemperaturaDetailsPage]
+})
+export class TemperaturaDetailsPageModule {}

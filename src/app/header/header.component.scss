@@ -1,0 +1,25 @@
+.badge-one {
+    position: absolute;
+    top: 7px;
+    right: 6px;
+    font-size: 0.6em;
+    --padding-start: 5px;
+    --padding-end: 5px;
+  }
+  
+  .badge-two {
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    font-size: 0.6em;
+    --padding-start: 3px;
+    --padding-end: 3px;
+  }
+
+  .badgeContainer{
+      padding: 10px;
+  }
+
+  ion-icon {
+    font-size: 1.5em;
+}

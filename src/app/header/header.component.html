@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar color="primary" style="padding-right: 1em;">
+    <ion-buttons slot="start">
+      <span *ngIf="showMenuBtn">
+        <ion-menu-button></ion-menu-button>
+      </span>
+      <ion-icon *ngIf="showBackBtn" (click)="goBack()" name="chevron-back-outline"></ion-icon>
+    </ion-buttons>
+    <ion-title>{{title}}</ion-title>
+     
+
+    <div class="badgeContainer" slot="end" color="light" *ngIf="!hidenotification" (click)="goToNotification()" >
+      <ion-icon size="large"name="notifications-outline" >
+      </ion-icon>
+    </div>
+    <ion-icon slot="end" *ngIf="showCloseBtn" (click)="close()" name="close-outline"></ion-icon>
+  </ion-toolbar>
+
+
+</ion-header>
